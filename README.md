@@ -4,7 +4,7 @@
 
 ## Install
 
-Go to Atom > Preferences... then search for `Semantic Web Autocomplete` in Packages tab. Restart atom.
+Go to Atom > Preferences... then search for `Semantic Web Autocomplete` in Install tab. Restart atom.
 
 ## Development
 
