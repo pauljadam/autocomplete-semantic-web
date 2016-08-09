@@ -18,6 +18,61 @@ $ apm install
 $ apm link
 ```
 
+## Cheat Sheet
+
+**Schema.org** *(with all attribute values)*
+
+- itemscope
+- itemtype
+- itemprop
+
+**RDFa**
+
+- vocab
+- typeof
+- property
+- resource
+- prefix
+
+**WAI-ARIA** *(with all attribute values)*
+
+- role
+- aria-activedescendant
+- aria-atomic
+- aria-autocomplete
+- aria-busy
+- aria-checked
+- aria-controls
+- aria-describedby
+- aria-disabled
+- aria-dropeffect
+- aria-expanded
+- aria-flowto
+- aria-grabbed
+- aria-haspopup
+- aria-hidden
+- aria-invalid
+- aria-label
+- aria-labelledby
+- aria-level
+- aria-live
+- aria-multiline
+- aria-multiselectable
+- aria-orientation
+- aria-owns
+- aria-posinset
+- aria-pressed
+- aria-readonly
+- aria-relevant
+- aria-required
+- aria-selected
+- aria-setsize
+- aria-sort
+- aria-valuemax
+- aria-valuemin
+- aria-valuenow
+- aria-valuetext
+
 ## License
 
 [The MIT License (MIT)](https://betomuniz.mit-license.org/)

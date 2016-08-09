@@ -31,6 +31,13 @@ describe "Semantic Web Autocomplete", ->
     completions = getCompletions()
     expect(completions.length).toBe 3
 
+  it "autocompletes attribute names with 'item' scope a.k.a Schema.org", ->
+    editor.setText('<div itemprop="n"')
+    editor.setCursorBufferPosition([0, 16])
+
+    completions = getCompletions()
+    expect(completions.length).toBe 23
+
   it "autocompletes attribute names with 'aria-' scope a.k.a WAI-ARIA", ->
     editor.setText('<div aria')
     editor.setCursorBufferPosition([0, 10])
