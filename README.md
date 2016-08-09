@@ -1,5 +1,7 @@
 # Semantic Web Autocomplete for [Atom Editor](https://atom.io/) [![Build Status](https://travis-ci.org/obetomuniz/autocomplete-semantic-web.svg?branch=master)](https://travis-ci.org/obetomuniz/autocomplete-semantic-web)
 
+*This plugin supports suggestions for [Schema.org](http://schema.org/), [RDFa Lite](https://www.w3.org/TR/rdfa-lite/) and [WAI-ARIA](https://www.w3.org/WAI/intro/aria).*
+
 ![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17505756/b91eff90-5dd9-11e6-968d-48593e538b2e.gif)
 
 ## Install
