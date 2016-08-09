@@ -1,6 +1,20 @@
-# Semantic Web Autosuggestions for [Atom Editor](https://atom.io/) [![Build Status](https://travis-ci.org/obetomuniz/autocomplete-semantic-web.svg?branch=master)](https://travis-ci.org/obetomuniz/autocomplete-semantic-web)
+# Semantic Web Autocomplete for [Atom Editor](https://atom.io/) [![Build Status](https://travis-ci.org/obetomuniz/autocomplete-semantic-web.svg?branch=master)](https://travis-ci.org/obetomuniz/autocomplete-semantic-web)
 
-![Semantic Web Autosuggestions for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17505756/b91eff90-5dd9-11e6-968d-48593e538b2e.gif)
+![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17505756/b91eff90-5dd9-11e6-968d-48593e538b2e.gif)
+
+## Install
+
+Go to Atom > Preferences... then search for `Semantic Web Autocomplete` in Packages tab. Restart atom.
+
+## Development
+
+```ssh
+$ cd ~/.atom/packages
+$ git clone https://github.com/obetomuniz/autocomplete-semantic-web.git
+$ cd autocomplete-semantic-web
+$ apm install
+$ apm link
+```
 
 ## License
 

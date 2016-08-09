@@ -1,4 +1,4 @@
-describe "Semantic Web Autosuggestions", ->
+describe "Semantic Web Autocomplete", ->
   [editor, provider] = []
 
   getCompletions = ->
