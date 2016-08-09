@@ -1,4 +1,4 @@
-# Semantic Web Autosuggestions for [Atom Editor](https://atom.io/)
+# Semantic Web Autosuggestions for [Atom Editor](https://atom.io/) [![Build Status](https://travis-ci.org/obetomuniz/autocomplete-semantic-web.svg?branch=master)](https://travis-ci.org/obetomuniz/autocomplete-semantic-web)
 
 ![Semantic Web Autosuggestions for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17505756/b91eff90-5dd9-11e6-968d-48593e538b2e.gif)
 
