@@ -2,7 +2,7 @@
 
 *This plugin supports suggestions for [Schema.org](http://schema.org/), [RDFa Lite](https://www.w3.org/TR/rdfa-lite/) and [WAI-ARIA](https://www.w3.org/WAI/intro/aria).*
 
-![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17540440/a23a0ff0-5e8c-11e6-9eb5-5bc31d867c66.gif)
+![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17541322/b0e4deba-5e94-11e6-8744-d1e938c9438f.gif)
 
 ## Install
 
