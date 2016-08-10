@@ -2,7 +2,7 @@
 
 *This plugin supports suggestions for [Schema.org](http://schema.org/), [RDFa Lite](https://www.w3.org/TR/rdfa-lite/) and [WAI-ARIA](https://www.w3.org/WAI/intro/aria).*
 
-![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17505756/b91eff90-5dd9-11e6-968d-48593e538b2e.gif)
+![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17540440/a23a0ff0-5e8c-11e6-9eb5-5bc31d867c66.gif)
 
 ## Install
 
@@ -22,56 +22,56 @@ $ apm link
 
 **Schema.org** *(with all attribute values)*
 
-- itemscope
-- itemtype
-- itemprop
+- [itemscope](http://schema.org/docs/gs.html#microdata_itemscope_itemtype)
+- [itemtype](http://schema.org/docs/gs.html#microdata_itemscope_itemtype)
+- [itemprop](http://schema.org/docs/gs.html#microdata_itemprop)
 
-**RDFa**
+**RDFa Lite**
 
-- vocab
-- typeof
-- property
-- resource
-- prefix
+- [vocab](https://www.w3.org/TR/rdfa-lite/#vocab-typeof-and-property)
+- [typeof](https://www.w3.org/TR/rdfa-lite/#vocab-typeof-and-property)
+- [property](https://www.w3.org/TR/rdfa-lite/#vocab-typeof-and-property)
+- [resource](https://www.w3.org/TR/rdfa-lite/#resource)
+- [prefix](https://www.w3.org/TR/rdfa-lite/#prefix)
 
 **WAI-ARIA** *(with all attribute values)*
 
-- role
-- aria-activedescendant
-- aria-atomic
-- aria-autocomplete
-- aria-busy
-- aria-checked
-- aria-controls
-- aria-describedby
-- aria-disabled
-- aria-dropeffect
-- aria-expanded
-- aria-flowto
-- aria-grabbed
-- aria-haspopup
-- aria-hidden
-- aria-invalid
-- aria-label
-- aria-labelledby
-- aria-level
-- aria-live
-- aria-multiline
-- aria-multiselectable
-- aria-orientation
-- aria-owns
-- aria-posinset
-- aria-pressed
-- aria-readonly
-- aria-relevant
-- aria-required
-- aria-selected
-- aria-setsize
-- aria-sort
-- aria-valuemax
-- aria-valuemin
-- aria-valuenow
-- aria-valuetext
+- [role](https://www.w3.org/TR/role-attribute/)
+- [aria-activedescendant](https://www.w3.org/TR/wai-aria/states_and_properties#aria-activedescendant)
+- [aria-atomic](https://www.w3.org/TR/wai-aria/states_and_properties#aria-atomic)
+- [aria-autocomplete](https://www.w3.org/TR/wai-aria/states_and_properties#aria-autocomplete)
+- [aria-busy](https://www.w3.org/TR/wai-aria/states_and_properties#aria-busy)
+- [aria-checked](https://www.w3.org/TR/wai-aria/states_and_properties#aria-checked)
+- [aria-controls](https://www.w3.org/TR/wai-aria/states_and_properties#aria-controls)
+- [aria-describedby](https://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby)
+- [aria-disabled](https://www.w3.org/TR/wai-aria/states_and_properties#aria-disabled)
+- [aria-dropeffect](https://www.w3.org/TR/wai-aria/states_and_properties#aria-dropeffect)
+- [aria-expanded](https://www.w3.org/TR/wai-aria/states_and_properties#aria-expanded)
+- [aria-flowto](https://www.w3.org/TR/wai-aria/states_and_properties#aria-flowto)
+- [aria-grabbed](https://www.w3.org/TR/wai-aria/states_and_properties#aria-grabbed)
+- [aria-haspopup](https://www.w3.org/TR/wai-aria/states_and_properties#aria-haspopup)
+- [aria-hidden](https://www.w3.org/TR/wai-aria/states_and_properties#aria-hidden)
+- [aria-invalid](https://www.w3.org/TR/wai-aria/states_and_properties#aria-invalid)
+- [aria-label](https://www.w3.org/TR/wai-aria/states_and_properties#aria-label)
+- [aria-labelledby](https://www.w3.org/TR/wai-aria/states_and_properties#aria-labelledby)
+- [aria-level](https://www.w3.org/TR/wai-aria/states_and_properties#aria-level)
+- [aria-live](https://www.w3.org/TR/wai-aria/states_and_properties#aria-live)
+- [aria-multiline](https://www.w3.org/TR/wai-aria/states_and_properties#aria-multiline)
+- [aria-multiselectable](https://www.w3.org/TR/wai-aria/states_and_properties#aria-multiselectable)
+- [aria-orientation](https://www.w3.org/TR/wai-aria/states_and_properties#aria-orientation)
+- [aria-owns](https://www.w3.org/TR/wai-aria/states_and_properties#aria-owns)
+- [aria-posinset](https://www.w3.org/TR/wai-aria/states_and_properties#aria-posinset)
+- [aria-pressed](https://www.w3.org/TR/wai-aria/states_and_properties#aria-pressed)
+- [aria-readonly](https://www.w3.org/TR/wai-aria/states_and_properties#aria-readonly)
+- [aria-relevant](https://www.w3.org/TR/wai-aria/states_and_properties#aria-relevant)
+- [aria-required](https://www.w3.org/TR/wai-aria/states_and_properties#aria-required)
+- [aria-selected](https://www.w3.org/TR/wai-aria/states_and_properties#aria-selected)
+- [aria-setsize](https://www.w3.org/TR/wai-aria/states_and_properties#aria-setsize)
+- [aria-sort](https://www.w3.org/TR/wai-aria/states_and_properties#aria-sort)
+- [aria-valuemax](https://www.w3.org/TR/wai-aria/states_and_properties#aria-valuemax)
+- [aria-valuemin](https://www.w3.org/TR/wai-aria/states_and_properties#aria-valuemin)
+- [aria-valuenow](https://www.w3.org/TR/wai-aria/states_and_properties#aria-valuenow)
+- [aria-valuetext](https://www.w3.org/TR/wai-aria/states_and_properties#aria-valuetext)
 
 ## License
 
