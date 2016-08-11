@@ -6,7 +6,7 @@ attributePattern = /\s+([a-zA-Z][-a-zA-Z]*)\s*=\s*$/
 tagPattern = /<([a-zA-Z][-a-zA-Z]*)(?:\s|$)/
 
 module.exports =
-  selector: '.text.html, .source.jsx'
+  selector: '.text.html, .source.js.jsx'
   disableForSelector: '.text.html .comment'
   filterSuggestions: true
 
@@ -40,7 +40,9 @@ module.exports =
     return false unless @hasTagScope(scopes)
 
     scopes.indexOf('punctuation.definition.tag.html') isnt -1 or
-      scopes.indexOf('punctuation.definition.tag.end.html') isnt -1
+      scopes.indexOf('punctuation.definition.tag.end.html') isnt -1 or
+      scopes.indexOf('punctuation.definition.tag.jsx') isnt -1 or
+      scopes.indexOf('JSXStartTagEnd') isnt -1
 
   isAttributeValue: ({scopeDescriptor, prefix}) ->
     lastPrefixCharacter = prefix[prefix.length - 1]
@@ -59,11 +61,14 @@ module.exports =
       scopes.indexOf('meta.tag.other.html') isnt -1 or
       scopes.indexOf('meta.tag.block.any.html') isnt -1 or
       scopes.indexOf('meta.tag.inline.any.html') isnt -1 or
-      scopes.indexOf('meta.tag.structure.any.html') isnt -1
+      scopes.indexOf('meta.tag.structure.any.html') isnt -1 or
+      scopes.indexOf('meta.tag.jsx') isnt -1 or
+      scopes.indexOf('JSXAttrs') isnt -1
 
   hasStringScope: (scopes) ->
     scopes.indexOf('string.quoted.double.html') isnt -1 or
-      scopes.indexOf('string.quoted.single.html') isnt -1
+      scopes.indexOf('string.quoted.single.html') isnt -1 or
+      scopes.indexOf('string.quoted.double.js') isnt -1
 
   getAttributeNameCompletions: ({editor, bufferPosition}, prefix) ->
     completions = []
